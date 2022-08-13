@@ -136,8 +136,7 @@ def line_plot():
     ax2.set_xlabel("Month")
     ax2.set_ylabel("Page Views")
  
-    # I'm cheating here, because I don't know why the test for y ticks label
-    # fail and I don't want to dig into seaborn source code.
+
     y_ticks = [
         "0",
         "20000",
